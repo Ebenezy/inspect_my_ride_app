@@ -1,4 +1,4 @@
-# hello-world
+# inspect-my-ride-app
 
 ## Project setup
 ```
