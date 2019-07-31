@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="21px" viewBox="0 0 16 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Onboarding" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Sign-In-" transform="translate(-50.000000, -613.000000)" fill="#FFFFFF">
+            <g id="Facebook-Button" transform="translate(20.000000, 594.000000)">
+                <path d="M44,26 L43,26 L43,24 C43,21.2 40.8,19 38,19 C35.2,19 33,21.2 33,24 L33,26 L32,26 C30.9,26 30,26.9 30,28 L30,38 C30,39.1 30.9,40 32,40 L44,40 C45.1,40 46,39.1 46,38 L46,28 C46,26.9 45.1,26 44,26 L44,26 Z M38,35 C36.9,35 36,34.1 36,33 C36,31.9 36.9,31 38,31 C39.1,31 40,31.9 40,33 C40,34.1 39.1,35 38,35 L38,35 Z M41.1,26 L34.9,26 L34.9,24 C34.9,22.3 36.3,20.9 38,20.9 C39.7,20.9 41.1,22.3 41.1,24 L41.1,26 L41.1,26 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>
