@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="25px" viewBox="0 0 25 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <g id="App-Pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="New-Inspection" transform="translate(-19.000000, -901.000000)" fill="#198E77">
+            <path d="M26.375,911.125 L24.625,912.875 L30.25,918.5 L42.75,906 L41,904.25 L30.25,915 L26.375,911.125 L26.375,911.125 Z M41.5,913.5 C41.5,919 37,923.5 31.5,923.5 C26,923.5 21.5,919 21.5,913.5 C21.5,908 26,903.5 31.5,903.5 C32.5,903.5 33.375,903.625 34.25,903.875 L36.25,901.875 C34.75,901.375 33.125,901 31.5,901 C24.625,901 19,906.625 19,913.5 C19,920.375 24.625,926 31.5,926 C38.375,926 44,920.375 44,913.5 L41.5,913.5 L41.5,913.5 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>

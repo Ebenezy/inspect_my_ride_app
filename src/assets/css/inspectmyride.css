@@ -96,7 +96,7 @@ body{
     padding: 0;
     font-family: 'Avenir LT Std 55 Roman';
 }
-.card-pin-input,.expiry-input,.addcard-input,.input-location,.verify-input-location,.verify-input,.verify-input2,.form-input,select,textarea,button,.form-control,.input-field:focus,.input-field:active {
+.input-manufacturer,.input-email,.card-pin-input,.expiry-input,.addcard-input,.input-location,.verify-input-location,.verify-input,.verify-input2,.form-input,select,textarea,button,.form-control,.input-field:focus,.input-field:active {
     outline:0px !important;
     -webkit-appearance:none!important;
     border-color: transparent;
@@ -131,6 +131,7 @@ a:hover{
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+    padding: 1.5rem 1.5rem 0;
 }
 .simplified-text h2{
     font-family: 'Avenir LT Std 35 Light';
@@ -139,6 +140,18 @@ a:hover{
     color: #FFFFFF;
     text-align: center;
     line-height: 44px;
+}
+.signup a{
+    color: #ffffff;
+}
+.signup{
+    padding: 20px 0;
+}
+.signup p{
+    margin-bottom: 0;
+}
+.login{
+    padding: 20px 0;
 }
 .login-btn{
     opacity: 0.85;
@@ -149,5 +162,227 @@ a:hover{
     color: #FFFFFF;
     letter-spacing: 0;
     text-align: center;
-    padding: 10px 2rem;
+    padding: 13px 2rem;
+    width: 100%;
 }
+.login-nav{
+    display: flex;
+    justify-content: space-between;
+    background: #218C74;
+    padding: 1.5rem 1rem;
+}
+.back-btn{
+    padding-top: 0.3rem;
+}
+.login-page-body{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 85vh;
+}
+.login-nav-title{
+    padding-top: 0.3rem;
+
+}
+.login-nav-title p{
+    font-family: Avenir-Heavy;
+    font-size: 20px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-align: center;
+    margin-bottom: 0;
+}
+.login-text-info{
+    padding: 1.5rem 0;
+}
+.login-text-info p{
+    font-family: Avenir-Medium;
+    font-size: 18px;
+    color: #4A4A4A;
+    letter-spacing: 0;
+    margin-bottom: 0;
+}
+.enter-email{
+    padding-bottom: 10px;
+}
+.enter-email2{
+    padding-bottom: 10px;
+    display: flex;
+}
+.country-flag{
+    background: #DEDEDE;
+    border-radius: 8px;
+    border: none;
+    padding: 15px;
+    margin-right: 10px;
+}
+.input-email{
+    background: #DEDEDE;
+    border-radius: 8px;
+    font-family: Avenir-Roman;
+    font-size: 18px;
+    color: #4A4A4A;
+    letter-spacing: 0;
+    width: 100%;
+    border: none;
+    padding: 15px;
+}
+.country{
+    background: #DEDEDE;
+    border-radius: 8px;
+    width: 100%;
+    border: none;
+    margin-bottom: 10px;
+    display: flex;
+}
+.country-ng{
+    font-family: Avenir-Black;
+    font-size: 20px;
+    color: #4A4A4A;
+    letter-spacing: 0;
+    text-align: center;
+    padding-top: 14px;
+}
+.forgot-pin-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.forgot-pin{
+    text-decoration: none;
+    font-family: Avenir-Medium;
+    font-size: 18px;
+    color: #4A4A4A;
+    letter-spacing: 0;
+    text-align: center;
+}
+.forgot-pin:hover {
+    text-decoration: none;
+    color: #218C74;
+}
+.logo_footer{
+    text-align: center;
+}
+/*Landing Page Section starts*/
+.landing-page{
+    width: 100%;
+    height: 100vh;
+    background-color: #2B2B2B;
+
+}
+.landing-page-inner{
+    width: 100%;
+    height: 100vh;
+    background: url("../../assets/images/car-bg-footer.svg") bottom no-repeat;
+    background-size: contain;
+    text-align: center;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 2rem 1.5rem 0;
+}
+.menu-btn{
+    text-align: right;
+}
+.start-inspection{
+    opacity: 0.85;
+    background: #218C74;
+    border-radius: 8px;
+    padding: 13px 2rem;
+    width: 100%;
+    display: flex;
+    margin-bottom: 10px;
+}
+.inspect-icons{
+    padding-right: 1.5rem;
+}
+.inspect-icons2{
+    padding-right: 0;
+}
+.inspect-btn{
+    width: 100%;
+    font-family: Avenir-Black;
+    font-size: 18px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-align: left;
+    background: none;
+}
+.vehicle-details{
+    font-family: Avenir-Light;
+    font-size: 17px;
+    color: #FFFFFF;
+    text-align: left;
+}
+.form-inspect-section{
+    padding-top: 1.5rem;
+}
+
+
+/*Landing Page Section ends*/
+
+/*Inspection Page starts*/
+.manufacturer-model{
+    display: flex;
+}
+.manufacturer-model2{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+.manufacturer{
+    padding-right: 8px;
+    margin-bottom: 10px;
+}
+.manufacturer p{
+    font-family: Avenir-Book;
+    font-size: 16px;
+    color: #147663;
+    margin-bottom: 0;
+}
+.input-manufacturer{
+    padding: 5px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #DEDEDE;
+    font-family: Avenir-Medium;
+    font-size: 19px;
+    color: #4A4A4A;
+    width: 100%;
+}
+.input-manufacturer::placeholder{
+    color: #4A4A4A;
+}
+.country-state{
+    padding: 5px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #DEDEDE;
+    font-family: Avenir-Medium;
+    font-size: 19px;
+    color: #4A4A4A;
+    width: 100%;
+}
+.btop{
+    border-top: 1px solid #DEDEDE;
+    padding: 1rem 0;
+    margin-top: 1rem;
+}
+.manufacturer2 p{
+    font-family: Avenir-Book;
+    font-size: 15px;
+    color: #4A4A4A;
+    text-align: left;
+}
+
+.start-inspection2{
+    background: #04755F;
+    border-radius: 8px;
+    padding: 13px 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+/*Inspection Page ends*/
