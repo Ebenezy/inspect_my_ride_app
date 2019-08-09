@@ -109,6 +109,17 @@ a{
 a:hover{
     text-decoration: none;
 }
+.bounce-1 {
+    animation-name: bounce-1;
+    animation-timing-function: linear;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes bounce-1 {
+    0%   { transform: translateX(0); }
+    50%  { transform: translatex(-10px); }
+    100% { transform: translateX(0); }
+}
 .splash-screen{
     width: 100%;
     height: 100vh;
@@ -263,6 +274,12 @@ a:hover{
 .logo_footer{
     text-align: center;
 }
+.logo_footer p{
+    font-family: Avenir-Book;
+    font-size: 15px;
+    color: #A0A0A0;
+    text-align: center;
+}
 /*Landing Page Section starts*/
 .landing-page{
     width: 100%;
@@ -307,6 +324,15 @@ a:hover{
     color: #FFFFFF;
     letter-spacing: 0;
     text-align: left;
+    background: none;
+}
+.inspect-btn2{
+    width: 100%;
+    font-family: Avenir-Black;
+    font-size: 18px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-align: center;
     background: none;
 }
 .vehicle-details{
@@ -385,4 +411,168 @@ a:hover{
     justify-content: space-between;
     margin-bottom: 10px;
 }
+.start-inspection3{
+    opacity: 0.85;
+    background: #218C74;
+    border-radius: 8px;
+    padding: 13px 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
 /*Inspection Page ends*/
+
+/*Menu Page starts*/
+.menu-info{
+    padding: 1.2rem 0 0.5rem;
+    border-bottom: 1px solid #E2E2E2;
+}
+.menu-info p{
+    font-family: Avenir-Medium;
+    font-size: 19px;
+    color: #4A4A4A;
+    letter-spacing: 0;
+}
+.menu-info2{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.2rem 0 0.5rem;
+    border-bottom: 1px solid #E2E2E2;
+}
+.menu-info2 p{
+    font-family: Avenir-Medium;
+    font-size: 19px;
+    color: #4A4A4A;
+    letter-spacing: 0;
+}
+/*Menu Page ends*/
+
+/*Subscription Page starts*/
+.restore-plan p{
+    font-family: Avenir-Medium;
+    font-size: 20px;
+    color: #9B9B9B;
+    letter-spacing: 0;
+    text-align: center;
+    margin-bottom: 0;
+}
+.premium_box{
+    background: #FFFFFF;
+    box-shadow: 0 3px 14px 0 rgba(0,0,0,0.14);
+    border-radius: 14px;
+    padding: 20px;
+}
+.premium_box h4{
+    font-family: Avenir-Black;
+    font-size: 25px;
+    color: #4A4A4A;
+    letter-spacing: 0;
+    margin-bottom: 0;
+    padding-bottom: 5px;
+}
+.premium_box img{
+    /*background-image: linear-gradient(144deg, #FFCD2C 0%, #FF0663 100%);*/
+    margin-bottom: 0;
+    padding-bottom: 10px;
+
+}
+.premium_box p{
+    font-family: Avenir-Heavy;
+    font-size: 15px;
+    color: #8D8D8D;
+    letter-spacing: 0;
+    margin-bottom: 0;
+}
+.badger-accordion__header .js-badger-accordion-header .badger-accordion-toggle{
+    background: #198E77 !important;
+    border-radius: 8px;
+    font-family: Avenir-Heavy;
+    font-size: 20px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    padding: 1rem 2rem;
+    width: 100%;
+    flex: 0 0 100% !important;
+    display: flex;
+    justify-content: space-between;
+}
+.caretdown{
+    /*margin-left: 65%;*/
+}
+.car_conditions{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #DEDEDE;
+}
+.car_condition{
+    display: flex;
+}
+.good_{
+    opacity: 0.4;
+    background: #198E77;
+    border-radius: 10px;
+    color: #ffffff;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+}
+.faulty_{
+    opacity: 0.4;
+    background: #E67E22;
+    border-radius: 10px;
+    color: #ffffff;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+}
+.bad_{
+    opacity: 0.4;
+    background: #FF1744;
+    border-radius: 10px;
+    color: #ffffff;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+}
+.car_condition p{
+    font-family: Avenir-Medium;
+    font-size: 16px;
+    color: #4A4A4A;
+    letter-spacing: 0;
+    margin-bottom: 0;
+    margin-left: 10px;
+    padding-top: 15px;
+}
+.edit_{
+    background: #0091EA;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 16px;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+}
+.general-observe {
+    display: flex;
+    justify-content: space-between;
+    background: #0091EA;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 16px;
+    width: 100%;
+    padding: 10px 20px;
+    margin: 10px 5px;
+}
+.general-observe p{
+    margin-bottom: 0;
+}
+/*Subscription Page ends*/

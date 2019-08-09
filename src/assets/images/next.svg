@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="24px" viewBox="0 0 26 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Book-Inspection" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <g id="iPhone-8-Plus-Copy-7" transform="translate(-348.000000, -1034.000000)" stroke="#FFFFFF" stroke-width="3">
+            <g id="Facebook-Button-Copy-2" transform="translate(20.000000, 1016.000000)">
+                <g id="Group" transform="translate(341.000000, 30.000000) scale(-1, 1) translate(-341.000000, -30.000000) translate(330.000000, 20.000000)">
+                    <polyline id="Line-2" stroke-linejoin="round" points="10 0 0 10 10 20"></polyline>
+                    <path d="M0,10 L22,10" id="Line"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

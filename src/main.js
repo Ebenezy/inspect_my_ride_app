@@ -18,7 +18,39 @@ Vue.use(Datetime)
 import vueCountryRegionSelect from 'vue-country-region-select'
 Vue.use(vueCountryRegionSelect)
 
+import VueCollapse from 'vue2-collapse'
+
+Vue.use(VueCollapse);
+
+import {BadgerAccordion, BadgerAccordionItem} from 'vue-badger-accordion'
+// import pollyfill from 'array-from-pollyfill';
+// import BadgerAccordion from 'badger-accordion';
+
+
+import Switches from 'vue-switches';
+
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { faUserSecret, faAngleDown, faCaretDown, faPen } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+
+library.add(faUserSecret, faAngleDown, faCaretDown, faPen)
+
+Vue.component('font-awesome-icon', FontAwesomeIcon)
+
 new Vue({
   router,
+
+    data: function() {
+        return {
+
+        };
+    },
+    components: {
+        Switches,
+        BadgerAccordion,
+        BadgerAccordionItem,
+        // pollyfill
+    },
+
   render: h => h(App)
 }).$mount('#app')

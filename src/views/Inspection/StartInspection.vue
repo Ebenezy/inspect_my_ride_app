@@ -86,7 +86,15 @@
                         </div>
                     </div>
                     <div class="login">
-                        <router-link to="ContinueInspection"><button class="login-btn">Continue</button></router-link>
+                        <router-link to="ContinueInspection">
+                            <div class="start-inspection3">
+                                <div></div>
+                                <button class="inspect-btn2">Continue</button>
+                                <div class="inspect-icons2">
+                                    <img src="../../assets/images/next.svg" class="bounce-1">
+                                </div>
+                            </div>
+                        </router-link>
                     </div>
                 </form>
 

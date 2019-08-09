@@ -2,7 +2,7 @@
     <div class="landing-page">
         <div class="landing-page-inner">
             <div class="menu-btn">
-                <img src="../../assets/images/menu-btn.svg">
+                <router-link to="Settings"><img src="../../assets/images/menu-btn.svg"></router-link>
             </div>
             <div class="inspect_logo2">
                 <router-link to="Splash3"><img src="../../assets/images/inspect-my-ride-full-logo.svg"></router-link>

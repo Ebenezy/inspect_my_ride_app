@@ -14,6 +14,10 @@ import ContinueInspection from './views/Inspection/ContinueInspection.vue'
 import Inspection from './views/Inspection/Inspection.vue'
 import Booking from './views/Inspection/Booking.vue'
 import History from './views/Inspection/History.vue'
+import Settings from './views/Settings/Settings.vue'
+import ChangePin from './views/Settings/ChangePin.vue'
+import Subscription from './views/Settings/Subscription.vue'
+import SelectPlan from './views/Settings/SelectPlan.vue'
 // import Home from './views/Home.vue'
 
 Vue.use(Router)
@@ -89,6 +93,26 @@ export default new Router({
           path: '/History',
           name: 'History',
           component: History
+      },
+      {
+          path: '/Settings',
+          name: 'Settings',
+          component: Settings
+      },
+      {
+          path: '/ChangePin',
+          name: 'ChangePin',
+          component: ChangePin
+      },
+      {
+          path: '/Subscription',
+          name: 'Subscription',
+          component: Subscription
+      },
+      {
+          path: '/SelectPlan',
+          name: 'SelectPlan',
+          component: SelectPlan
       },
     {
       path: '/about',

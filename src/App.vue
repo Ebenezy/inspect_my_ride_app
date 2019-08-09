@@ -10,4 +10,6 @@
 
 <style>
     @import "assets/css/inspectmyride.css";
+    @import "assets/css/bootstrap.css";
+    @import "assets/css/animate.css";
 </style>
