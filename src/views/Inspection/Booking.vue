@@ -12,7 +12,7 @@
         </div>
         <div class="login-page-body">
             <div class="container">
-                <form action="" class="form-inspect-section">
+                <form action="" class="form-inspect-section" method="post">
                     <div class="enter-email">
                         <input type="email" name="email" class="input-email" placeholder="Client's Name">
                     </div>

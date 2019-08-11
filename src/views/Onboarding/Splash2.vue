@@ -10,7 +10,7 @@
         </div>
         <div class="login-to-existing">
             <router-link to="Login">
-                <div class="start-inspection">
+                <div class="start-inspection container">
                     <div class="inspect-icons2">
                         <img src="../../assets/images/key-lock.svg">
                     </div>
@@ -31,6 +31,14 @@
 </script>
 
 <style scoped>
+    a{
+        text-decoration: none;
+        color: #ffffff;
+    }
+    a:hover, a:focus, a:active{
+        text-decoration: none;
+        color: #ffffff;
+    }
 
 
 </style>

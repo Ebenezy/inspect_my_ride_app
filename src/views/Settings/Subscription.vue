@@ -32,9 +32,9 @@
                     </div>
                 </router-link>
             </div>
-            <div class="restore-plan">
+            <router-link to="RestorePlan"><div class="restore-plan">
                 <p>Restore Plan</p>
-            </div>
+            </div></router-link>
             <div class="logo_footer">
                 <img src="../../assets/images/inspect-my-ride-grey.svg" alt="logo">
             </div>

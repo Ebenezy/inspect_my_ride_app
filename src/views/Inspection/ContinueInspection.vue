@@ -92,5 +92,13 @@
 </script>
 
 <style scoped>
+    a{
+        text-decoration: none;
+        color: #ffffff;
+    }
+    a:hover, a:focus, a:active{
+        text-decoration: none;
+        color: #ffffff;
+    }
 
 </style>

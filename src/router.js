@@ -4,6 +4,7 @@ import Splash from './views/Onboarding/Splash.vue'
 import Splash2 from './views/Onboarding/Splash2.vue'
 import Login from './views/Login/Login.vue'
 import Signup from './views/Signup/Signup.vue'
+import AddPhoto from './views/Signup/AddPhoto.vue'
 import Country from './views/Signup/Country.vue'
 import ForgotPin from './views/Login/ForgotPin.vue'
 import AgentLogin from './views/Login/AgentLogin.vue'
@@ -12,12 +13,18 @@ import Landing from './views/Landing/Landing.vue'
 import StartInspection from './views/Inspection/StartInspection.vue'
 import ContinueInspection from './views/Inspection/ContinueInspection.vue'
 import Inspection from './views/Inspection/Inspection.vue'
+import Notes from './views/Inspection/Notes.vue'
+import General from './views/Inspection/General.vue'
+import Finish from './views/Inspection/Finish.vue'
 import Booking from './views/Inspection/Booking.vue'
 import History from './views/Inspection/History.vue'
 import Settings from './views/Settings/Settings.vue'
 import ChangePin from './views/Settings/ChangePin.vue'
 import Subscription from './views/Settings/Subscription.vue'
 import SelectPlan from './views/Settings/SelectPlan.vue'
+import Premium from './views/Settings/Premium.vue'
+import AddCard from './views/Settings/AddCard.vue'
+import RestorePlan from './views/Settings/RestorePlan.vue'
 // import Home from './views/Home.vue'
 
 Vue.use(Router)
@@ -48,6 +55,11 @@ export default new Router({
           path: '/Country',
           name: 'Country',
           component: Country
+      },
+      {
+          path: '/AddPhoto',
+          name: 'AddPhoto',
+          component: AddPhoto
       },
       {
           path: '/ForgotPin',
@@ -85,6 +97,21 @@ export default new Router({
           component: Inspection
       },
       {
+          path: '/Notes',
+          name: 'Notes',
+          component: Notes
+      },
+      {
+          path: '/General',
+          name: 'General',
+          component: General
+      },
+      {
+          path: '/Finish',
+          name: 'Finish',
+          component: Finish
+      },
+      {
           path: '/Booking',
           name: 'Booking',
           component: Booking
@@ -113,6 +140,21 @@ export default new Router({
           path: '/SelectPlan',
           name: 'SelectPlan',
           component: SelectPlan
+      },
+      {
+          path: '/Premium',
+          name: 'Premium',
+          component: Premium
+      },
+      {
+          path: '/AddCard',
+          name: 'AddCard',
+          component: AddCard
+      },
+      {
+          path: '/RestorePlan',
+          name: 'RestorePlan',
+          component: RestorePlan
       },
     {
       path: '/about',

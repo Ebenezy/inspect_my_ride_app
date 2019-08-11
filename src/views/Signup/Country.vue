@@ -25,7 +25,7 @@
                         <input type="text" name="text" class="input-email" placeholder="City">
                     </div>
                     <div class="login">
-                        <router-link to="Landing"><button class="login-btn">Finish</button></router-link>
+                        <router-link to="AddPhoto"><button class="login-btn">Finish</button></router-link>
                     </div>
                 </form>
             </div>

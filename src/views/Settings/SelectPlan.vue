@@ -12,22 +12,56 @@
         <div class="login-page-body">
             <div class="container">
                 <form action="" class="form-inspect-section">
-                    <div class="enter-email">
-                        <input type="email" name="email" class="input-email" placeholder="Client's Name">
+                    <div class="select_plan_text">
+                        <h5>Basic</h5>
+                        <p>	• 	With the <b>Basic</b> plan you can Inspect 1 to 20 Cars a month.</p>
                     </div>
-                    <div class="btop">
-                        <p class="inspection_sub_topic">Place of Inspection *</p>
-                        <div class="enter-email">
-                            <input type="email" name="email" class="input-email" placeholder="Address">
+                    <div class="select_plan_text">
+                        <h5>Pro</h5>
+                        <p> • 	With the <b>Pro</b> plan you can Inspect 20 to 50 Cars a month.</p>
+                    </div>
+                    <div class="select_plan_text">
+                        <h5>Premium</h5>
+                        <p> • 	With the <b>Premium</b> plan you’ll get unlimited Cars Inspection every month. </p>
+                    </div>
+
+                    <div class="select_plan_box">
+                        <div class="select_plan_box1">
+                            <h5>$28</h5>
+                            <h4>Basic</h4>
+                            <p>10 Cars<br>Inspection a Month</p>
+                        </div>
+                        <div class="select_plan_box2">
+                            <h5>$55</h5>
+                            <h4><img src="../../assets/images/pro-img.svg"></h4>
+                            <p>50 Cars<br>Inspection a Month</p>
+                        </div>
+                        <div class="select_premium">
+                            <!--<div class="select_premium_badge">-->
+                                <!--<div></div>-->
+                                <!--<div class="promo-badge">-->
+                                    <!--<p>12%</p>-->
+                                    <!--<small>off</small>-->
+                                <!--</div>-->
+                            <!--</div>-->
+                            <div class="promo-badge">
+                                <p>12%</p>
+                                <small>off</small>
+                            </div>
+                            <div class="select_plan_box3">
+                                <h5>$278</h5>
+                                <h4><img src="../../assets/images/premium-img.svg"></h4>
+                                <p>Unlimited Cars<br>Inspection a Month</p>
+                            </div>
                         </div>
 
                     </div>
 
                     <div class="login">
-                        <router-link to="">
+                        <router-link to="AddCard">
                             <div class="start-inspection2">
                                 <div></div>
-                                <button class="inspect-btn2">Book Inspection</button>
+                                <button class="inspect-btn2">Select this Package</button>
                                 <div class="inspect-icons2">
                                     <img src="../../assets/images/next.svg" class="bounce-1">
                                 </div>
@@ -38,7 +72,7 @@
 
             </div>
             <div class="logo_footer">
-                <p>With Information Provided, our Agents <br>will come and inspect your vehicle</p>
+                <p>As you select your plan, your transactions <br>are safe and secure</p>
             </div>
         </div>
     </div>

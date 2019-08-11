@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="44px" viewBox="0 0 32 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="28.6755519%" y1="0%" x2="72.1774253%" y2="100.999999%" id="linearGradient-1">
+            <stop stop-color="#FFCD2C" offset="0%"></stop>
+            <stop stop-color="#FF0663" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Subscription" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="iPhone-8-Plus-Copy-2" transform="translate(-361.000000, -449.000000)" fill="url(#linearGradient-1)">
+            <g id="Group-2" transform="translate(277.000000, 449.000000)">
+                <g transform="translate(84.000000, -5.000000)" id="Rectangle">
+                    <polygon points="0 1.1900203e-14 32 1.1900203e-14 32 49 16 40 0 49"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

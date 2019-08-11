@@ -132,5 +132,13 @@
         font-size: 19px;
         color: #4A4A4A;
     }
+    a{
+        text-decoration: none;
+        color: #ffffff;
+    }
+    a:hover, a:focus, a:active{
+        text-decoration: none;
+        color: #ffffff;
+    }
 
 </style>

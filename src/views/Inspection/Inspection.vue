@@ -12,8 +12,13 @@
         <div class="login-page-body">
             <div class="container">
                 <form action="" class="form-inspect-section">
-                    <div class="enter-email">
-                        <input type="email" name="email" class="input-email" placeholder="Client's Name">
+                    <div class="vehicle-status">
+                        <div class="good_2"><div class="dot1"></div> G - Good</div>
+                        <div class="fair_2"><div class="dot2"></div> F - Fair</div>
+                        <div class="bad_2"><div class="dot3"></div> B - Bad</div>
+                        <div class="note_2">
+                            <div class="edit-pen"><font-awesome-icon icon="pen" class=""/></div><p>- Note</p>
+                        </div>
                     </div>
                     <div class="btop">
                         <div class="inspection-dropdown">
@@ -29,7 +34,7 @@
                                                     <div class="bad_">B</div>
                                                     <p>Hood</p>
                                                 </div>
-                                                <div class="edit_"><font-awesome-icon icon="pen" class=""/></div>
+                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
                                             <div class="car_conditions">
                                                 <div class="car_condition">
@@ -38,7 +43,7 @@
                                                     <div class="bad_">B</div>
                                                     <p>Hood</p>
                                                 </div>
-                                                <div class="edit_"><font-awesome-icon icon="pen" class=""/></div>
+                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
                                             <div class="car_conditions">
                                                 <div class="car_condition">
@@ -47,7 +52,7 @@
                                                     <div class="bad_">B</div>
                                                     <p>Hood</p>
                                                 </div>
-                                                <div class="edit_"><font-awesome-icon icon="pen" class=""/></div>
+                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
                                             <div class="car_conditions">
                                                 <div class="car_condition">
@@ -56,7 +61,7 @@
                                                     <div class="bad_">B</div>
                                                     <p>Hood</p>
                                                 </div>
-                                                <div class="edit_"><font-awesome-icon icon="pen" class=""/></div>
+                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
                                             <div class="car_conditions">
                                                 <div class="car_condition">
@@ -65,7 +70,7 @@
                                                     <div class="bad_">B</div>
                                                     <p>Hood</p>
                                                 </div>
-                                                <div class="edit_"><font-awesome-icon icon="pen" class=""/></div>
+                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
                                             <div class="car_conditions">
                                                 <div class="car_condition">
@@ -74,7 +79,7 @@
                                                     <div class="bad_">B</div>
                                                     <p>Hood</p>
                                                 </div>
-                                                <div class="edit_"><font-awesome-icon icon="pen" class=""/></div>
+                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
                                             <div class="car_conditions">
                                                 <div class="car_condition">
@@ -83,7 +88,7 @@
                                                     <div class="bad_">B</div>
                                                     <p>Hood</p>
                                                 </div>
-                                                <div class="edit_"><font-awesome-icon icon="pen" class=""/></div>
+                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
                                             <div class="car_conditions">
                                                 <div class="car_condition">
@@ -92,7 +97,7 @@
                                                     <div class="bad_">B</div>
                                                     <p>Hood</p>
                                                 </div>
-                                                <div class="edit_"><font-awesome-icon icon="pen" class=""/></div>
+                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
                                             <div class="car_conditions">
                                                 <div class="car_condition">
@@ -101,7 +106,7 @@
                                                     <div class="bad_">B</div>
                                                     <p>Hood</p>
                                                 </div>
-                                                <div class="edit_"><font-awesome-icon icon="pen" class=""/></div>
+                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
                                             <div class="car_conditions">
                                                 <div class="car_condition">
@@ -110,7 +115,7 @@
                                                     <div class="bad_">B</div>
                                                     <p>Hood</p>
                                                 </div>
-                                                <div class="edit_"><font-awesome-icon icon="pen" class=""/></div>
+                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
                                             <div class="car_conditions">
                                                 <div class="car_condition">
@@ -119,7 +124,7 @@
                                                     <div class="bad_">B</div>
                                                     <p>Hood</p>
                                                 </div>
-                                                <div class="edit_"><font-awesome-icon icon="pen" class=""/></div>
+                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
                                             <div class="car_conditions">
                                                 <div class="car_condition">
@@ -128,12 +133,12 @@
                                                     <div class="bad_">B</div>
                                                     <p>Hood</p>
                                                 </div>
-                                                <div class="edit_"><font-awesome-icon icon="pen" class=""/></div>
+                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
-                                            <div class="general-observe">
+                                            <router-link to="General"><div class="general-observe">
                                                 <p>General Observation (optional)</p>
                                                 <font-awesome-icon icon="pen" class=""/>
-                                            </div>
+                                            </div></router-link>
 
                                         </template>
                                     </badger-accordion-item>
@@ -148,7 +153,7 @@
                                                     <div class="bad_">B</div>
                                                     <p>Hood</p>
                                                 </div>
-                                                <div class="edit_"><font-awesome-icon icon="pen" class=""/></div>
+                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
                                             <div class="car_conditions">
                                                 <div class="car_condition">
@@ -157,7 +162,7 @@
                                                     <div class="bad_">B</div>
                                                     <p>Hood</p>
                                                 </div>
-                                                <div class="edit_"><font-awesome-icon icon="pen" class=""/></div>
+                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
                                             <div class="car_conditions">
                                                 <div class="car_condition">
@@ -166,7 +171,7 @@
                                                     <div class="bad_">B</div>
                                                     <p>Hood</p>
                                                 </div>
-                                                <div class="edit_"><font-awesome-icon icon="pen" class=""/></div>
+                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
                                             <div class="car_conditions">
                                                 <div class="car_condition">
@@ -175,7 +180,7 @@
                                                     <div class="bad_">B</div>
                                                     <p>Hood</p>
                                                 </div>
-                                                <div class="edit_"><font-awesome-icon icon="pen" class=""/></div>
+                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
                                             <div class="car_conditions">
                                                 <div class="car_condition">
@@ -184,7 +189,7 @@
                                                     <div class="bad_">B</div>
                                                     <p>Hood</p>
                                                 </div>
-                                                <div class="edit_"><font-awesome-icon icon="pen" class=""/></div>
+                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
                                             <div class="car_conditions">
                                                 <div class="car_condition">
@@ -193,7 +198,7 @@
                                                     <div class="bad_">B</div>
                                                     <p>Hood</p>
                                                 </div>
-                                                <div class="edit_"><font-awesome-icon icon="pen" class=""/></div>
+                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
                                             <div class="car_conditions">
                                                 <div class="car_condition">
@@ -202,7 +207,7 @@
                                                     <div class="bad_">B</div>
                                                     <p>Hood</p>
                                                 </div>
-                                                <div class="edit_"><font-awesome-icon icon="pen" class=""/></div>
+                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
                                             <div class="car_conditions">
                                                 <div class="car_condition">
@@ -211,7 +216,7 @@
                                                     <div class="bad_">B</div>
                                                     <p>Hood</p>
                                                 </div>
-                                                <div class="edit_"><font-awesome-icon icon="pen" class=""/></div>
+                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
                                             <div class="car_conditions">
                                                 <div class="car_condition">
@@ -220,7 +225,7 @@
                                                     <div class="bad_">B</div>
                                                     <p>Hood</p>
                                                 </div>
-                                                <div class="edit_"><font-awesome-icon icon="pen" class=""/></div>
+                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
                                             <div class="car_conditions">
                                                 <div class="car_condition">
@@ -229,7 +234,7 @@
                                                     <div class="bad_">B</div>
                                                     <p>Hood</p>
                                                 </div>
-                                                <div class="edit_"><font-awesome-icon icon="pen" class=""/></div>
+                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
                                             <div class="car_conditions">
                                                 <div class="car_condition">
@@ -238,7 +243,7 @@
                                                     <div class="bad_">B</div>
                                                     <p>Hood</p>
                                                 </div>
-                                                <div class="edit_"><font-awesome-icon icon="pen" class=""/></div>
+                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
                                             <div class="car_conditions">
                                                 <div class="car_condition">
@@ -247,17 +252,17 @@
                                                     <div class="bad_">B</div>
                                                     <p>Hood</p>
                                                 </div>
-                                                <div class="edit_"><font-awesome-icon icon="pen" class=""/></div>
+                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
-                                            <div class="general-observe">
+                                            <router-link to="General"><div class="general-observe">
                                                 <p>General Observation (optional)</p>
                                                 <font-awesome-icon icon="pen" class=""/>
-                                            </div>
+                                            </div></router-link>
 
                                         </template>
                                     </badger-accordion-item>
                                     <badger-accordion-item>
-                                        <template slot="header" >Glass <font-awesome-icon icon="caret-down" class="caretdown"/></template>
+                                        <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                         <template slot="content">
                                             <div class="car_conditions">
                                                 <div class="car_condition">
@@ -266,7 +271,7 @@
                                                     <div class="bad_">B</div>
                                                     <p>Hood</p>
                                                 </div>
-                                                <div class="edit_"><font-awesome-icon icon="pen" class=""/></div>
+                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
                                             <div class="car_conditions">
                                                 <div class="car_condition">
@@ -275,7 +280,7 @@
                                                     <div class="bad_">B</div>
                                                     <p>Hood</p>
                                                 </div>
-                                                <div class="edit_"><font-awesome-icon icon="pen" class=""/></div>
+                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
                                             <div class="car_conditions">
                                                 <div class="car_condition">
@@ -284,7 +289,7 @@
                                                     <div class="bad_">B</div>
                                                     <p>Hood</p>
                                                 </div>
-                                                <div class="edit_"><font-awesome-icon icon="pen" class=""/></div>
+                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
                                             <div class="car_conditions">
                                                 <div class="car_condition">
@@ -293,7 +298,7 @@
                                                     <div class="bad_">B</div>
                                                     <p>Hood</p>
                                                 </div>
-                                                <div class="edit_"><font-awesome-icon icon="pen" class=""/></div>
+                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
                                             <div class="car_conditions">
                                                 <div class="car_condition">
@@ -302,7 +307,7 @@
                                                     <div class="bad_">B</div>
                                                     <p>Hood</p>
                                                 </div>
-                                                <div class="edit_"><font-awesome-icon icon="pen" class=""/></div>
+                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
                                             <div class="car_conditions">
                                                 <div class="car_condition">
@@ -311,7 +316,7 @@
                                                     <div class="bad_">B</div>
                                                     <p>Hood</p>
                                                 </div>
-                                                <div class="edit_"><font-awesome-icon icon="pen" class=""/></div>
+                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
                                             <div class="car_conditions">
                                                 <div class="car_condition">
@@ -320,7 +325,7 @@
                                                     <div class="bad_">B</div>
                                                     <p>Hood</p>
                                                 </div>
-                                                <div class="edit_"><font-awesome-icon icon="pen" class=""/></div>
+                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
                                             <div class="car_conditions">
                                                 <div class="car_condition">
@@ -329,7 +334,7 @@
                                                     <div class="bad_">B</div>
                                                     <p>Hood</p>
                                                 </div>
-                                                <div class="edit_"><font-awesome-icon icon="pen" class=""/></div>
+                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
                                             <div class="car_conditions">
                                                 <div class="car_condition">
@@ -338,7 +343,7 @@
                                                     <div class="bad_">B</div>
                                                     <p>Hood</p>
                                                 </div>
-                                                <div class="edit_"><font-awesome-icon icon="pen" class=""/></div>
+                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
                                             <div class="car_conditions">
                                                 <div class="car_condition">
@@ -347,7 +352,7 @@
                                                     <div class="bad_">B</div>
                                                     <p>Hood</p>
                                                 </div>
-                                                <div class="edit_"><font-awesome-icon icon="pen" class=""/></div>
+                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
                                             <div class="car_conditions">
                                                 <div class="car_condition">
@@ -356,7 +361,7 @@
                                                     <div class="bad_">B</div>
                                                     <p>Hood</p>
                                                 </div>
-                                                <div class="edit_"><font-awesome-icon icon="pen" class=""/></div>
+                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
                                             <div class="car_conditions">
                                                 <div class="car_condition">
@@ -365,12 +370,12 @@
                                                     <div class="bad_">B</div>
                                                     <p>Hood</p>
                                                 </div>
-                                                <div class="edit_"><font-awesome-icon icon="pen" class=""/></div>
+                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
-                                            <div class="general-observe">
+                                            <router-link to="General"><div class="general-observe">
                                                 <p>General Observation (optional)</p>
                                                 <font-awesome-icon icon="pen" class=""/>
-                                            </div>
+                                            </div></router-link>
 
                                         </template>
                                     </badger-accordion-item>
@@ -384,7 +389,7 @@
                                                     <div class="bad_">B</div>
                                                     <p>Hood</p>
                                                 </div>
-                                                <div class="edit_"><font-awesome-icon icon="pen" class=""/></div>
+                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
                                             <div class="car_conditions">
                                                 <div class="car_condition">
@@ -393,7 +398,7 @@
                                                     <div class="bad_">B</div>
                                                     <p>Hood</p>
                                                 </div>
-                                                <div class="edit_"><font-awesome-icon icon="pen" class=""/></div>
+                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
                                             <div class="car_conditions">
                                                 <div class="car_condition">
@@ -402,7 +407,7 @@
                                                     <div class="bad_">B</div>
                                                     <p>Hood</p>
                                                 </div>
-                                                <div class="edit_"><font-awesome-icon icon="pen" class=""/></div>
+                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
                                             <div class="car_conditions">
                                                 <div class="car_condition">
@@ -411,7 +416,7 @@
                                                     <div class="bad_">B</div>
                                                     <p>Hood</p>
                                                 </div>
-                                                <div class="edit_"><font-awesome-icon icon="pen" class=""/></div>
+                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
                                             <div class="car_conditions">
                                                 <div class="car_condition">
@@ -420,7 +425,7 @@
                                                     <div class="bad_">B</div>
                                                     <p>Hood</p>
                                                 </div>
-                                                <div class="edit_"><font-awesome-icon icon="pen" class=""/></div>
+                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
                                             <div class="car_conditions">
                                                 <div class="car_condition">
@@ -429,7 +434,7 @@
                                                     <div class="bad_">B</div>
                                                     <p>Hood</p>
                                                 </div>
-                                                <div class="edit_"><font-awesome-icon icon="pen" class=""/></div>
+                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
                                             <div class="car_conditions">
                                                 <div class="car_condition">
@@ -438,7 +443,7 @@
                                                     <div class="bad_">B</div>
                                                     <p>Hood</p>
                                                 </div>
-                                                <div class="edit_"><font-awesome-icon icon="pen" class=""/></div>
+                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
                                             <div class="car_conditions">
                                                 <div class="car_condition">
@@ -447,7 +452,7 @@
                                                     <div class="bad_">B</div>
                                                     <p>Hood</p>
                                                 </div>
-                                                <div class="edit_"><font-awesome-icon icon="pen" class=""/></div>
+                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
                                             <div class="car_conditions">
                                                 <div class="car_condition">
@@ -456,7 +461,7 @@
                                                     <div class="bad_">B</div>
                                                     <p>Hood</p>
                                                 </div>
-                                                <div class="edit_"><font-awesome-icon icon="pen" class=""/></div>
+                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
                                             <div class="car_conditions">
                                                 <div class="car_condition">
@@ -465,7 +470,7 @@
                                                     <div class="bad_">B</div>
                                                     <p>Hood</p>
                                                 </div>
-                                                <div class="edit_"><font-awesome-icon icon="pen" class=""/></div>
+                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
                                             <div class="car_conditions">
                                                 <div class="car_condition">
@@ -474,7 +479,7 @@
                                                     <div class="bad_">B</div>
                                                     <p>Hood</p>
                                                 </div>
-                                                <div class="edit_"><font-awesome-icon icon="pen" class=""/></div>
+                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
                                             <div class="car_conditions">
                                                 <div class="car_condition">
@@ -483,12 +488,12 @@
                                                     <div class="bad_">B</div>
                                                     <p>Hood</p>
                                                 </div>
-                                                <div class="edit_"><font-awesome-icon icon="pen" class=""/></div>
+                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
-                                            <div class="general-observe">
+                                            <router-link to="General"><div class="general-observe">
                                                 <p>General Observation (optional)</p>
                                                 <font-awesome-icon icon="pen" class=""/>
-                                            </div>
+                                            </div></router-link>
 
                                         </template>
                                     </badger-accordion-item>
@@ -502,7 +507,7 @@
                                                     <div class="bad_">B</div>
                                                     <p>Hood</p>
                                                 </div>
-                                                <div class="edit_"><font-awesome-icon icon="pen" class=""/></div>
+                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
                                             <div class="car_conditions">
                                                 <div class="car_condition">
@@ -511,7 +516,7 @@
                                                     <div class="bad_">B</div>
                                                     <p>Hood</p>
                                                 </div>
-                                                <div class="edit_"><font-awesome-icon icon="pen" class=""/></div>
+                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
                                             <div class="car_conditions">
                                                 <div class="car_condition">
@@ -520,7 +525,7 @@
                                                     <div class="bad_">B</div>
                                                     <p>Hood</p>
                                                 </div>
-                                                <div class="edit_"><font-awesome-icon icon="pen" class=""/></div>
+                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
                                             <div class="car_conditions">
                                                 <div class="car_condition">
@@ -529,7 +534,7 @@
                                                     <div class="bad_">B</div>
                                                     <p>Hood</p>
                                                 </div>
-                                                <div class="edit_"><font-awesome-icon icon="pen" class=""/></div>
+                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
                                             <div class="car_conditions">
                                                 <div class="car_condition">
@@ -538,7 +543,7 @@
                                                     <div class="bad_">B</div>
                                                     <p>Hood</p>
                                                 </div>
-                                                <div class="edit_"><font-awesome-icon icon="pen" class=""/></div>
+                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
                                             <div class="car_conditions">
                                                 <div class="car_condition">
@@ -547,7 +552,7 @@
                                                     <div class="bad_">B</div>
                                                     <p>Hood</p>
                                                 </div>
-                                                <div class="edit_"><font-awesome-icon icon="pen" class=""/></div>
+                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
                                             <div class="car_conditions">
                                                 <div class="car_condition">
@@ -556,7 +561,7 @@
                                                     <div class="bad_">B</div>
                                                     <p>Hood</p>
                                                 </div>
-                                                <div class="edit_"><font-awesome-icon icon="pen" class=""/></div>
+                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
                                             <div class="car_conditions">
                                                 <div class="car_condition">
@@ -565,7 +570,7 @@
                                                     <div class="bad_">B</div>
                                                     <p>Hood</p>
                                                 </div>
-                                                <div class="edit_"><font-awesome-icon icon="pen" class=""/></div>
+                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
                                             <div class="car_conditions">
                                                 <div class="car_condition">
@@ -574,12 +579,12 @@
                                                     <div class="bad_">B</div>
                                                     <p>Hood</p>
                                                 </div>
-                                                <div class="edit_"><font-awesome-icon icon="pen" class=""/></div>
+                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
-                                            <div class="general-observe">
+                                            <router-link to="General"><div class="general-observe">
                                                 <p>General Observation (optional)</p>
                                                 <font-awesome-icon icon="pen" class=""/>
-                                            </div>
+                                            </div></router-link>
                                         </template>
                                     </badger-accordion-item>
                                     <badger-accordion-item>
@@ -592,7 +597,7 @@
                                                     <div class="bad_">B</div>
                                                     <p>Hood</p>
                                                 </div>
-                                                <div class="edit_"><font-awesome-icon icon="pen" class=""/></div>
+                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
                                             <div class="car_conditions">
                                                 <div class="car_condition">
@@ -601,7 +606,7 @@
                                                     <div class="bad_">B</div>
                                                     <p>Hood</p>
                                                 </div>
-                                                <div class="edit_"><font-awesome-icon icon="pen" class=""/></div>
+                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
                                             <div class="car_conditions">
                                                 <div class="car_condition">
@@ -610,7 +615,7 @@
                                                     <div class="bad_">B</div>
                                                     <p>Hood</p>
                                                 </div>
-                                                <div class="edit_"><font-awesome-icon icon="pen" class=""/></div>
+                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
                                             <div class="car_conditions">
                                                 <div class="car_condition">
@@ -619,7 +624,7 @@
                                                     <div class="bad_">B</div>
                                                     <p>Hood</p>
                                                 </div>
-                                                <div class="edit_"><font-awesome-icon icon="pen" class=""/></div>
+                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
                                             <div class="car_conditions">
                                                 <div class="car_condition">
@@ -628,7 +633,7 @@
                                                     <div class="bad_">B</div>
                                                     <p>Hood</p>
                                                 </div>
-                                                <div class="edit_"><font-awesome-icon icon="pen" class=""/></div>
+                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
                                             <div class="car_conditions">
                                                 <div class="car_condition">
@@ -637,7 +642,7 @@
                                                     <div class="bad_">B</div>
                                                     <p>Hood</p>
                                                 </div>
-                                                <div class="edit_"><font-awesome-icon icon="pen" class=""/></div>
+                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
                                             <div class="car_conditions">
                                                 <div class="car_condition">
@@ -646,7 +651,7 @@
                                                     <div class="bad_">B</div>
                                                     <p>Hood</p>
                                                 </div>
-                                                <div class="edit_"><font-awesome-icon icon="pen" class=""/></div>
+                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
                                             <div class="car_conditions">
                                                 <div class="car_condition">
@@ -655,7 +660,7 @@
                                                     <div class="bad_">B</div>
                                                     <p>Hood</p>
                                                 </div>
-                                                <div class="edit_"><font-awesome-icon icon="pen" class=""/></div>
+                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
                                             <div class="car_conditions">
                                                 <div class="car_condition">
@@ -664,12 +669,12 @@
                                                     <div class="bad_">B</div>
                                                     <p>Hood</p>
                                                 </div>
-                                                <div class="edit_"><font-awesome-icon icon="pen" class=""/></div>
+                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
-                                            <div class="general-observe">
+                                            <router-link to="General"><div class="general-observe">
                                                 <p>General Observation (optional)</p>
                                                 <font-awesome-icon icon="pen" class=""/>
-                                            </div>
+                                            </div></router-link>
                                         </template>
                                     </badger-accordion-item>
                                     <badger-accordion-item>
@@ -682,7 +687,7 @@
                                                     <div class="bad_">B</div>
                                                     <p>Hood</p>
                                                 </div>
-                                                <div class="edit_"><font-awesome-icon icon="pen" class=""/></div>
+                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
                                             <div class="car_conditions">
                                                 <div class="car_condition">
@@ -691,7 +696,7 @@
                                                     <div class="bad_">B</div>
                                                     <p>Hood</p>
                                                 </div>
-                                                <div class="edit_"><font-awesome-icon icon="pen" class=""/></div>
+                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
                                             <div class="car_conditions">
                                                 <div class="car_condition">
@@ -700,7 +705,7 @@
                                                     <div class="bad_">B</div>
                                                     <p>Hood</p>
                                                 </div>
-                                                <div class="edit_"><font-awesome-icon icon="pen" class=""/></div>
+                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
                                             <div class="car_conditions">
                                                 <div class="car_condition">
@@ -709,7 +714,7 @@
                                                     <div class="bad_">B</div>
                                                     <p>Hood</p>
                                                 </div>
-                                                <div class="edit_"><font-awesome-icon icon="pen" class=""/></div>
+                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
                                             <div class="car_conditions">
                                                 <div class="car_condition">
@@ -718,7 +723,7 @@
                                                     <div class="bad_">B</div>
                                                     <p>Hood</p>
                                                 </div>
-                                                <div class="edit_"><font-awesome-icon icon="pen" class=""/></div>
+                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
                                             <div class="car_conditions">
                                                 <div class="car_condition">
@@ -727,7 +732,7 @@
                                                     <div class="bad_">B</div>
                                                     <p>Hood</p>
                                                 </div>
-                                                <div class="edit_"><font-awesome-icon icon="pen" class=""/></div>
+                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
                                             <div class="car_conditions">
                                                 <div class="car_condition">
@@ -736,7 +741,7 @@
                                                     <div class="bad_">B</div>
                                                     <p>Hood</p>
                                                 </div>
-                                                <div class="edit_"><font-awesome-icon icon="pen" class=""/></div>
+                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
                                             <div class="car_conditions">
                                                 <div class="car_condition">
@@ -745,7 +750,7 @@
                                                     <div class="bad_">B</div>
                                                     <p>Hood</p>
                                                 </div>
-                                                <div class="edit_"><font-awesome-icon icon="pen" class=""/></div>
+                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
                                             <div class="car_conditions">
                                                 <div class="car_condition">
@@ -754,12 +759,12 @@
                                                     <div class="bad_">B</div>
                                                     <p>Hood</p>
                                                 </div>
-                                                <div class="edit_"><font-awesome-icon icon="pen" class=""/></div>
+                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
-                                            <div class="general-observe">
+                                            <router-link to="General"><div class="general-observe">
                                                 <p>General Observation (optional)</p>
                                                 <font-awesome-icon icon="pen" class=""/>
-                                            </div>
+                                            </div></router-link>
                                         </template>
                                     </badger-accordion-item>
                                     <badger-accordion-item>
@@ -772,7 +777,7 @@
                                                     <div class="bad_">B</div>
                                                     <p>Hood</p>
                                                 </div>
-                                                <div class="edit_"><font-awesome-icon icon="pen" class=""/></div>
+                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
                                             <div class="car_conditions">
                                                 <div class="car_condition">
@@ -781,7 +786,7 @@
                                                     <div class="bad_">B</div>
                                                     <p>Hood</p>
                                                 </div>
-                                                <div class="edit_"><font-awesome-icon icon="pen" class=""/></div>
+                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
                                             <div class="car_conditions">
                                                 <div class="car_condition">
@@ -790,7 +795,7 @@
                                                     <div class="bad_">B</div>
                                                     <p>Hood</p>
                                                 </div>
-                                                <div class="edit_"><font-awesome-icon icon="pen" class=""/></div>
+                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
                                             <div class="car_conditions">
                                                 <div class="car_condition">
@@ -799,7 +804,7 @@
                                                     <div class="bad_">B</div>
                                                     <p>Hood</p>
                                                 </div>
-                                                <div class="edit_"><font-awesome-icon icon="pen" class=""/></div>
+                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
                                             <div class="car_conditions">
                                                 <div class="car_condition">
@@ -808,7 +813,7 @@
                                                     <div class="bad_">B</div>
                                                     <p>Hood</p>
                                                 </div>
-                                                <div class="edit_"><font-awesome-icon icon="pen" class=""/></div>
+                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
                                             <div class="car_conditions">
                                                 <div class="car_condition">
@@ -817,7 +822,7 @@
                                                     <div class="bad_">B</div>
                                                     <p>Hood</p>
                                                 </div>
-                                                <div class="edit_"><font-awesome-icon icon="pen" class=""/></div>
+                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
                                             <div class="car_conditions">
                                                 <div class="car_condition">
@@ -826,7 +831,7 @@
                                                     <div class="bad_">B</div>
                                                     <p>Hood</p>
                                                 </div>
-                                                <div class="edit_"><font-awesome-icon icon="pen" class=""/></div>
+                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
                                             <div class="car_conditions">
                                                 <div class="car_condition">
@@ -835,7 +840,7 @@
                                                     <div class="bad_">B</div>
                                                     <p>Hood</p>
                                                 </div>
-                                                <div class="edit_"><font-awesome-icon icon="pen" class=""/></div>
+                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
                                             <div class="car_conditions">
                                                 <div class="car_condition">
@@ -844,12 +849,12 @@
                                                     <div class="bad_">B</div>
                                                     <p>Hood</p>
                                                 </div>
-                                                <div class="edit_"><font-awesome-icon icon="pen" class=""/></div>
+                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
-                                            <div class="general-observe">
+                                            <router-link to="General"><div class="general-observe">
                                                 <p>General Observation (optional)</p>
                                                 <font-awesome-icon icon="pen" class=""/>
-                                            </div>
+                                            </div></router-link>
                                         </template>
                                     </badger-accordion-item>
                                 </badger-accordion>

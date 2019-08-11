@@ -30,10 +30,10 @@ import {BadgerAccordion, BadgerAccordionItem} from 'vue-badger-accordion'
 import Switches from 'vue-switches';
 
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faUserSecret, faAngleDown, faCaretDown, faPen } from '@fortawesome/free-solid-svg-icons'
+import { faUserSecret, faAngleDown, faCaretDown, faPen, faCamera, faPhotoVideo } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
-library.add(faUserSecret, faAngleDown, faCaretDown, faPen)
+library.add(faUserSecret, faAngleDown, faCaretDown, faPen, faCamera, faPhotoVideo)
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 
