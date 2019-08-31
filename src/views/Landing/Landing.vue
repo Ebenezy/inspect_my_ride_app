@@ -38,7 +38,7 @@
                 <h2>Hi <b>David</b>,<br>
                     what would you like to do today?</h2>
             </div>
-            <div class="login-to-existing container">
+            <div class="login-to-existing ">
                 <router-link to="StartInspection">
                     <div class="start-inspection">
                         <div class="inspect-icons">

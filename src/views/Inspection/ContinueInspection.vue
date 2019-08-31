@@ -64,16 +64,17 @@
                             </div>
                         </div>
                     </div>
-
-                    <div class="login">
-                        <router-link to="Inspection">
-                            <div class="start-inspection">
-                                <div class="inspect-icons">
-                                    <img src="../../assets/images/save-icon.svg">
+                    <div class="fixed-bottom container">
+                        <div class="login">
+                            <router-link to="Inspection">
+                                <div class="start-inspection">
+                                    <div class="inspect-icons">
+                                        <img src="../../assets/images/save-icon.svg">
+                                    </div>
+                                    <button class="inspect-btn">Save to Start Inspection</button>
                                 </div>
-                                <button class="inspect-btn">Save to Start Inspection</button>
-                            </div>
-                        </router-link>
+                            </router-link>
+                        </div>
                     </div>
                 </form>
 

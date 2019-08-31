@@ -17,7 +17,8 @@
                         <input type="email" name="email" class="input-email" placeholder="Title of Inspection">
                     </div>
                     <div class="enter-email">
-                        <input type="text" name="text" class="input-email" placeholder="Date of Inspection">
+                        <datetime v-model="date" placeholder="Date of Inspection" class="input-email"></datetime>
+                        <!--<input type="text" name="text" class="input-email" placeholder="Date of Inspection">-->
                     </div>
                     <div class="btop">
                         <div class="row">
@@ -139,6 +140,9 @@
     a:hover, a:focus, a:active{
         text-decoration: none;
         color: #ffffff;
+    }
+    .manufacturer2{
+        padding-bottom: 2rem;
     }
 
 </style>

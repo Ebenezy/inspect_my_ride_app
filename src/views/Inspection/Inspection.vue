@@ -262,7 +262,7 @@
                                         </template>
                                     </badger-accordion-item>
                                     <badger-accordion-item>
-                                        <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
+                                        <template slot="header" >Glass <font-awesome-icon icon="caret-down" class="caretdown"/></template>
                                         <template slot="content">
                                             <div class="car_conditions">
                                                 <div class="car_condition">

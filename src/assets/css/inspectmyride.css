@@ -152,6 +152,14 @@ a:hover, a:focus, a:active{
     text-align: center;
     line-height: 44px;
 }
+.simplified-text h2 b{
+    font-family: Avenir-Heavy;
+    font-weight: 200;
+    font-size: 29px;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 44px;
+}
 .signup a{
     color: #ffffff;
 }
@@ -320,7 +328,7 @@ a:hover, a:focus, a:active{
 .inspect-btn{
     width: 100%;
     font-family: Avenir-Black;
-    font-size: 17px;
+    font-size: 20px;
     color: #FFFFFF;
     letter-spacing: 0;
     text-align: center;
@@ -329,7 +337,7 @@ a:hover, a:focus, a:active{
 .inspect-btn2{
     width: 100%;
     font-family: Avenir-Black;
-    font-size: 17px;
+    font-size: 20px;
     color: #FFFFFF;
     letter-spacing: 0;
     text-align: center;
@@ -343,6 +351,10 @@ a:hover, a:focus, a:active{
 }
 .form-inspect-section{
     padding-top: 1.5rem;
+}
+.input-email input{
+    background: #DEDEDE;
+    border: none;
 }
 
 
@@ -359,7 +371,7 @@ a:hover, a:focus, a:active{
 }
 .manufacturer{
     padding-right: 8px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 .manufacturer p{
     font-family: Avenir-Book;
@@ -368,7 +380,7 @@ a:hover, a:focus, a:active{
     margin-bottom: 0;
 }
 .input-manufacturer{
-    padding: 5px;
+    padding: 10px 5px;
     background: none;
     border: none;
     border-bottom: 1px solid #DEDEDE;
@@ -381,7 +393,7 @@ a:hover, a:focus, a:active{
     color: #4A4A4A;
 }
 .country-state{
-    padding: 5px;
+    padding: 10px 5px;
     background: none;
     border: none;
     border-bottom: 1px solid #DEDEDE;
@@ -405,7 +417,7 @@ a:hover, a:focus, a:active{
 .start-inspection2{
     background: #04755F;
     border-radius: 8px;
-    padding: 13px 2rem;
+    padding: 13px 1rem;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -515,6 +527,7 @@ a:hover, a:focus, a:active{
     color: #ffffff;
     width: 45px;
     height: 45px;
+    font-weight: 900;
     text-align: center;
     padding: 10px;
     margin: 5px;
@@ -529,6 +542,7 @@ a:hover, a:focus, a:active{
     color: #ffffff;
     width: 45px;
     height: 45px;
+    font-weight: 900;
     text-align: center;
     padding: 10px;
     margin: 5px;
@@ -543,6 +557,7 @@ a:hover, a:focus, a:active{
     color: #ffffff;
     width: 45px;
     height: 45px;
+    font-weight: 900;
     text-align: center;
     padding: 10px;
     margin: 5px;
@@ -592,6 +607,7 @@ a:hover, a:focus, a:active{
      padding-top: 10px;
      display: flex;
      font-size: 15px;
+    font-weight: 900;
  }
 .dot1{
     width: 9px;
@@ -630,6 +646,7 @@ a:hover, a:focus, a:active{
     margin-bottom: 0;
     padding-top: 10px;
     font-size: 15px;
+    font-weight: 900;
 }
 .edit-pen{
     background: #0091EA;
@@ -883,5 +900,12 @@ a:hover, a:focus, a:active{
     letter-spacing: 0;
     margin-bottom: 0;
 }
-
+.modal.show .modal-dialog {
+    -webkit-transform: none;
+    transform: none;
+    align-items: flex-end !important;
+}
+.modal-backdrop{
+    background-color: rgba(0,0,0,0.5) !important;
+}
 /*Notes & General Observation ends*/

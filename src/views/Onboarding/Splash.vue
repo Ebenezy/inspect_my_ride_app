@@ -12,7 +12,11 @@
 
 <script>
     export default {
-        name: "Splash.vue"
+        name: "Splash.vue",
+        created(){
+            setTimeout( () => this.$router.push({ path: '/Splash2'}), 3000);
+
+        }
     }
 </script>
 

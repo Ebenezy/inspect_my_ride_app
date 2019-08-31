@@ -37,7 +37,7 @@
                             </div>
                         </div>
                         <p class="inspection_sub_topic">Leave a Note</p>
-                        <textarea class="summary-input" placeholder="Write here"></textarea>
+                        <textarea class="summary-input" placeholder="Write here" ></textarea>
                     </div>
 
                     <div class="save_note">
@@ -51,7 +51,7 @@
             </div>
             <div class="container">
                 <div class="notes_footer">
-                    <p>Car isn’t starting, the key starter is weak and doesn’t turn in the right direction</p>
+                    <p >Car isn’t starting, the key starter is weak and doesn’t turn in the right direction</p>
                 </div>
             </div>
         </div>
@@ -60,7 +60,8 @@
 
 <script>
     export default {
-        name: "Notes.vue"
+        name: "Notes.vue",
+
     }
 </script>
 
