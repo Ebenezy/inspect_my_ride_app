@@ -41,7 +41,7 @@
                                                     <div class="good_">G</div>
                                                     <div class="faulty_">F</div>
                                                     <div class="bad_">B</div>
-                                                    <p>Hood</p>
+                                                    <p>Front</p>
                                                 </div>
                                                 <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
@@ -50,7 +50,7 @@
                                                     <div class="good_">G</div>
                                                     <div class="faulty_">F</div>
                                                     <div class="bad_">B</div>
-                                                    <p>Hood</p>
+                                                    <p>Front Bumper</p>
                                                 </div>
                                                 <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
@@ -59,7 +59,7 @@
                                                     <div class="good_">G</div>
                                                     <div class="faulty_">F</div>
                                                     <div class="bad_">B</div>
-                                                    <p>Hood</p>
+                                                    <p>Fenders</p>
                                                 </div>
                                                 <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
@@ -68,7 +68,7 @@
                                                     <div class="good_">G</div>
                                                     <div class="faulty_">F</div>
                                                     <div class="bad_">B</div>
-                                                    <p>Hood</p>
+                                                    <p>Doors</p>
                                                 </div>
                                                 <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
@@ -77,7 +77,7 @@
                                                     <div class="good_">G</div>
                                                     <div class="faulty_">F</div>
                                                     <div class="bad_">B</div>
-                                                    <p>Hood</p>
+                                                    <p>Roof</p>
                                                 </div>
                                                 <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
@@ -86,7 +86,7 @@
                                                     <div class="good_">G</div>
                                                     <div class="faulty_">F</div>
                                                     <div class="bad_">B</div>
-                                                    <p>Hood</p>
+                                                    <p>Rear</p>
                                                 </div>
                                                 <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
@@ -95,7 +95,7 @@
                                                     <div class="good_">G</div>
                                                     <div class="faulty_">F</div>
                                                     <div class="bad_">B</div>
-                                                    <p>Hood</p>
+                                                    <p>Rear Bumper</p>
                                                 </div>
                                                 <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
@@ -104,7 +104,7 @@
                                                     <div class="good_">G</div>
                                                     <div class="faulty_">F</div>
                                                     <div class="bad_">B</div>
-                                                    <p>Hood</p>
+                                                    <p>Trunk</p>
                                                 </div>
                                                 <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
@@ -113,7 +113,7 @@
                                                     <div class="good_">G</div>
                                                     <div class="faulty_">F</div>
                                                     <div class="bad_">B</div>
-                                                    <p>Hood</p>
+                                                    <p>Trim</p>
                                                 </div>
                                                 <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
@@ -122,7 +122,7 @@
                                                     <div class="good_">G</div>
                                                     <div class="faulty_">F</div>
                                                     <div class="bad_">B</div>
-                                                    <p>Hood</p>
+                                                    <p>Fuel Door</p>
                                                 </div>
                                                 <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
@@ -131,7 +131,7 @@
                                                     <div class="good_">G</div>
                                                     <div class="faulty_">F</div>
                                                     <div class="bad_">B</div>
-                                                    <p>Hood</p>
+                                                    <p>Paint Condition</p>
                                                 </div>
                                                 <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
@@ -151,7 +151,7 @@
                                                     <div class="good_">G</div>
                                                     <div class="faulty_">F</div>
                                                     <div class="bad_">B</div>
-                                                    <p>Hood</p>
+                                                    <p>Seats</p>
                                                 </div>
                                                 <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
@@ -160,7 +160,7 @@
                                                     <div class="good_">G</div>
                                                     <div class="faulty_">F</div>
                                                     <div class="bad_">B</div>
-                                                    <p>Hood</p>
+                                                    <p>Headliner</p>
                                                 </div>
                                                 <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
@@ -169,7 +169,7 @@
                                                     <div class="good_">G</div>
                                                     <div class="faulty_">F</div>
                                                     <div class="bad_">B</div>
-                                                    <p>Hood</p>
+                                                    <p>Carpet</p>
                                                 </div>
                                                 <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
@@ -178,7 +178,7 @@
                                                     <div class="good_">G</div>
                                                     <div class="faulty_">F</div>
                                                     <div class="bad_">B</div>
-                                                    <p>Hood</p>
+                                                    <p>Door Panels</p>
                                                 </div>
                                                 <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
@@ -187,7 +187,7 @@
                                                     <div class="good_">G</div>
                                                     <div class="faulty_">F</div>
                                                     <div class="bad_">B</div>
-                                                    <p>Hood</p>
+                                                    <p>Glove Box</p>
                                                 </div>
                                                 <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
@@ -196,7 +196,7 @@
                                                     <div class="good_">G</div>
                                                     <div class="faulty_">F</div>
                                                     <div class="bad_">B</div>
-                                                    <p>Hood</p>
+                                                    <p>Vanity Mirrors</p>
                                                 </div>
                                                 <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
@@ -205,7 +205,7 @@
                                                     <div class="good_">G</div>
                                                     <div class="faulty_">F</div>
                                                     <div class="bad_">B</div>
-                                                    <p>Hood</p>
+                                                    <p>Interior Trim</p>
                                                 </div>
                                                 <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
@@ -214,7 +214,7 @@
                                                     <div class="good_">G</div>
                                                     <div class="faulty_">F</div>
                                                     <div class="bad_">B</div>
-                                                    <p>Hood</p>
+                                                    <p>Dashboard Gauge</p>
                                                 </div>
                                                 <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
@@ -223,7 +223,7 @@
                                                     <div class="good_">G</div>
                                                     <div class="faulty_">F</div>
                                                     <div class="bad_">B</div>
-                                                    <p>Hood</p>
+                                                    <p>Air Condition</p>
                                                 </div>
                                                 <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
@@ -232,7 +232,7 @@
                                                     <div class="good_">G</div>
                                                     <div class="faulty_">F</div>
                                                     <div class="bad_">B</div>
-                                                    <p>Hood</p>
+                                                    <p>Heater</p>
                                                 </div>
                                                 <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
@@ -241,16 +241,7 @@
                                                     <div class="good_">G</div>
                                                     <div class="faulty_">F</div>
                                                     <div class="bad_">B</div>
-                                                    <p>Hood</p>
-                                                </div>
-                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
-                                            </div>
-                                            <div class="car_conditions">
-                                                <div class="car_condition">
-                                                    <div class="good_">G</div>
-                                                    <div class="faulty_">F</div>
-                                                    <div class="bad_">B</div>
-                                                    <p>Hood</p>
+                                                    <p>Defroster</p>
                                                 </div>
                                                 <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
@@ -269,7 +260,7 @@
                                                     <div class="good_">G</div>
                                                     <div class="faulty_">F</div>
                                                     <div class="bad_">B</div>
-                                                    <p>Hood</p>
+                                                    <p>Windshield</p>
                                                 </div>
                                                 <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
@@ -278,7 +269,7 @@
                                                     <div class="good_">G</div>
                                                     <div class="faulty_">F</div>
                                                     <div class="bad_">B</div>
-                                                    <p>Hood</p>
+                                                    <p>Windows</p>
                                                 </div>
                                                 <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
@@ -287,7 +278,7 @@
                                                     <div class="good_">G</div>
                                                     <div class="faulty_">F</div>
                                                     <div class="bad_">B</div>
-                                                    <p>Hood</p>
+                                                    <p>Mirrors</p>
                                                 </div>
                                                 <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
@@ -296,82 +287,11 @@
                                                     <div class="good_">G</div>
                                                     <div class="faulty_">F</div>
                                                     <div class="bad_">B</div>
-                                                    <p>Hood</p>
+                                                    <p>Rear Windows</p>
                                                 </div>
                                                 <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
-                                            <div class="car_conditions">
-                                                <div class="car_condition">
-                                                    <div class="good_">G</div>
-                                                    <div class="faulty_">F</div>
-                                                    <div class="bad_">B</div>
-                                                    <p>Hood</p>
-                                                </div>
-                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
-                                            </div>
-                                            <div class="car_conditions">
-                                                <div class="car_condition">
-                                                    <div class="good_">G</div>
-                                                    <div class="faulty_">F</div>
-                                                    <div class="bad_">B</div>
-                                                    <p>Hood</p>
-                                                </div>
-                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
-                                            </div>
-                                            <div class="car_conditions">
-                                                <div class="car_condition">
-                                                    <div class="good_">G</div>
-                                                    <div class="faulty_">F</div>
-                                                    <div class="bad_">B</div>
-                                                    <p>Hood</p>
-                                                </div>
-                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
-                                            </div>
-                                            <div class="car_conditions">
-                                                <div class="car_condition">
-                                                    <div class="good_">G</div>
-                                                    <div class="faulty_">F</div>
-                                                    <div class="bad_">B</div>
-                                                    <p>Hood</p>
-                                                </div>
-                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
-                                            </div>
-                                            <div class="car_conditions">
-                                                <div class="car_condition">
-                                                    <div class="good_">G</div>
-                                                    <div class="faulty_">F</div>
-                                                    <div class="bad_">B</div>
-                                                    <p>Hood</p>
-                                                </div>
-                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
-                                            </div>
-                                            <div class="car_conditions">
-                                                <div class="car_condition">
-                                                    <div class="good_">G</div>
-                                                    <div class="faulty_">F</div>
-                                                    <div class="bad_">B</div>
-                                                    <p>Hood</p>
-                                                </div>
-                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
-                                            </div>
-                                            <div class="car_conditions">
-                                                <div class="car_condition">
-                                                    <div class="good_">G</div>
-                                                    <div class="faulty_">F</div>
-                                                    <div class="bad_">B</div>
-                                                    <p>Hood</p>
-                                                </div>
-                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
-                                            </div>
-                                            <div class="car_conditions">
-                                                <div class="car_condition">
-                                                    <div class="good_">G</div>
-                                                    <div class="faulty_">F</div>
-                                                    <div class="bad_">B</div>
-                                                    <p>Hood</p>
-                                                </div>
-                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
-                                            </div>
+
                                             <router-link to="General"><div class="general-observe">
                                                 <p>General Observation (optional)</p>
                                                 <font-awesome-icon icon="pen" class=""/>
@@ -387,7 +307,7 @@
                                                     <div class="good_">G</div>
                                                     <div class="faulty_">F</div>
                                                     <div class="bad_">B</div>
-                                                    <p>Hood</p>
+                                                    <p>Condition of Tyre</p>
                                                 </div>
                                                 <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
@@ -396,7 +316,7 @@
                                                     <div class="good_">G</div>
                                                     <div class="faulty_">F</div>
                                                     <div class="bad_">B</div>
-                                                    <p>Hood</p>
+                                                    <p>Condition of Wheels</p>
                                                 </div>
                                                 <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
@@ -405,7 +325,7 @@
                                                     <div class="good_">G</div>
                                                     <div class="faulty_">F</div>
                                                     <div class="bad_">B</div>
-                                                    <p>Hood</p>
+                                                    <p>Spare Tyre</p>
                                                 </div>
                                                 <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
@@ -414,7 +334,7 @@
                                                     <div class="good_">G</div>
                                                     <div class="faulty_">F</div>
                                                     <div class="bad_">B</div>
-                                                    <p>Hood</p>
+                                                    <p>Jack and Wheel Tools</p>
                                                 </div>
                                                 <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
@@ -423,73 +343,11 @@
                                                     <div class="good_">G</div>
                                                     <div class="faulty_">F</div>
                                                     <div class="bad_">B</div>
-                                                    <p>Hood</p>
+                                                    <p>Mould Flap</p>
                                                 </div>
                                                 <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
-                                            <div class="car_conditions">
-                                                <div class="car_condition">
-                                                    <div class="good_">G</div>
-                                                    <div class="faulty_">F</div>
-                                                    <div class="bad_">B</div>
-                                                    <p>Hood</p>
-                                                </div>
-                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
-                                            </div>
-                                            <div class="car_conditions">
-                                                <div class="car_condition">
-                                                    <div class="good_">G</div>
-                                                    <div class="faulty_">F</div>
-                                                    <div class="bad_">B</div>
-                                                    <p>Hood</p>
-                                                </div>
-                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
-                                            </div>
-                                            <div class="car_conditions">
-                                                <div class="car_condition">
-                                                    <div class="good_">G</div>
-                                                    <div class="faulty_">F</div>
-                                                    <div class="bad_">B</div>
-                                                    <p>Hood</p>
-                                                </div>
-                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
-                                            </div>
-                                            <div class="car_conditions">
-                                                <div class="car_condition">
-                                                    <div class="good_">G</div>
-                                                    <div class="faulty_">F</div>
-                                                    <div class="bad_">B</div>
-                                                    <p>Hood</p>
-                                                </div>
-                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
-                                            </div>
-                                            <div class="car_conditions">
-                                                <div class="car_condition">
-                                                    <div class="good_">G</div>
-                                                    <div class="faulty_">F</div>
-                                                    <div class="bad_">B</div>
-                                                    <p>Hood</p>
-                                                </div>
-                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
-                                            </div>
-                                            <div class="car_conditions">
-                                                <div class="car_condition">
-                                                    <div class="good_">G</div>
-                                                    <div class="faulty_">F</div>
-                                                    <div class="bad_">B</div>
-                                                    <p>Hood</p>
-                                                </div>
-                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
-                                            </div>
-                                            <div class="car_conditions">
-                                                <div class="car_condition">
-                                                    <div class="good_">G</div>
-                                                    <div class="faulty_">F</div>
-                                                    <div class="bad_">B</div>
-                                                    <p>Hood</p>
-                                                </div>
-                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
-                                            </div>
+
                                             <router-link to="General"><div class="general-observe">
                                                 <p>General Observation (optional)</p>
                                                 <font-awesome-icon icon="pen" class=""/>
@@ -505,7 +363,7 @@
                                                     <div class="good_">G</div>
                                                     <div class="faulty_">F</div>
                                                     <div class="bad_">B</div>
-                                                    <p>Hood</p>
+                                                    <p>Frame</p>
                                                 </div>
                                                 <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
@@ -514,7 +372,7 @@
                                                     <div class="good_">G</div>
                                                     <div class="faulty_">F</div>
                                                     <div class="bad_">B</div>
-                                                    <p>Hood</p>
+                                                    <p>Exhaust System</p>
                                                 </div>
                                                 <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
@@ -523,7 +381,7 @@
                                                     <div class="good_">G</div>
                                                     <div class="faulty_">F</div>
                                                     <div class="bad_">B</div>
-                                                    <p>Hood</p>
+                                                    <p>Transmission</p>
                                                 </div>
                                                 <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
@@ -532,7 +390,7 @@
                                                     <div class="good_">G</div>
                                                     <div class="faulty_">F</div>
                                                     <div class="bad_">B</div>
-                                                    <p>Hood</p>
+                                                    <p>Drive Axle</p>
                                                 </div>
                                                 <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
@@ -541,7 +399,7 @@
                                                     <div class="good_">G</div>
                                                     <div class="faulty_">F</div>
                                                     <div class="bad_">B</div>
-                                                    <p>Hood</p>
+                                                    <p>Suspension</p>
                                                 </div>
                                                 <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
@@ -550,37 +408,11 @@
                                                     <div class="good_">G</div>
                                                     <div class="faulty_">F</div>
                                                     <div class="bad_">B</div>
-                                                    <p>Hood</p>
+                                                    <p>Brake System</p>
                                                 </div>
                                                 <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
-                                            <div class="car_conditions">
-                                                <div class="car_condition">
-                                                    <div class="good_">G</div>
-                                                    <div class="faulty_">F</div>
-                                                    <div class="bad_">B</div>
-                                                    <p>Hood</p>
-                                                </div>
-                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
-                                            </div>
-                                            <div class="car_conditions">
-                                                <div class="car_condition">
-                                                    <div class="good_">G</div>
-                                                    <div class="faulty_">F</div>
-                                                    <div class="bad_">B</div>
-                                                    <p>Hood</p>
-                                                </div>
-                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
-                                            </div>
-                                            <div class="car_conditions">
-                                                <div class="car_condition">
-                                                    <div class="good_">G</div>
-                                                    <div class="faulty_">F</div>
-                                                    <div class="bad_">B</div>
-                                                    <p>Hood</p>
-                                                </div>
-                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
-                                            </div>
+
                                             <router-link to="General"><div class="general-observe">
                                                 <p>General Observation (optional)</p>
                                                 <font-awesome-icon icon="pen" class=""/>
@@ -595,7 +427,7 @@
                                                     <div class="good_">G</div>
                                                     <div class="faulty_">F</div>
                                                     <div class="bad_">B</div>
-                                                    <p>Hood</p>
+                                                    <p>Engine Compartment</p>
                                                 </div>
                                                 <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
@@ -604,7 +436,7 @@
                                                     <div class="good_">G</div>
                                                     <div class="faulty_">F</div>
                                                     <div class="bad_">B</div>
-                                                    <p>Hood</p>
+                                                    <p>Battery</p>
                                                 </div>
                                                 <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
@@ -613,7 +445,7 @@
                                                     <div class="good_">G</div>
                                                     <div class="faulty_">F</div>
                                                     <div class="bad_">B</div>
-                                                    <p>Hood</p>
+                                                    <p>Oil</p>
                                                 </div>
                                                 <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
@@ -622,7 +454,7 @@
                                                     <div class="good_">G</div>
                                                     <div class="faulty_">F</div>
                                                     <div class="bad_">B</div>
-                                                    <p>Hood</p>
+                                                    <p>Fluids</p>
                                                 </div>
                                                 <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
@@ -631,7 +463,7 @@
                                                     <div class="good_">G</div>
                                                     <div class="faulty_">F</div>
                                                     <div class="bad_">B</div>
-                                                    <p>Hood</p>
+                                                    <p>Wiring</p>
                                                 </div>
                                                 <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
@@ -640,7 +472,7 @@
                                                     <div class="good_">G</div>
                                                     <div class="faulty_">F</div>
                                                     <div class="bad_">B</div>
-                                                    <p>Hood</p>
+                                                    <p>Belts</p>
                                                 </div>
                                                 <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
@@ -649,7 +481,7 @@
                                                     <div class="good_">G</div>
                                                     <div class="faulty_">F</div>
                                                     <div class="bad_">B</div>
-                                                    <p>Hood</p>
+                                                    <p>Hoses</p>
                                                 </div>
                                                 <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
@@ -658,19 +490,11 @@
                                                     <div class="good_">G</div>
                                                     <div class="faulty_">F</div>
                                                     <div class="bad_">B</div>
-                                                    <p>Hood</p>
+                                                    <p>Any Non-Stock</p>
                                                 </div>
                                                 <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
-                                            <div class="car_conditions">
-                                                <div class="car_condition">
-                                                    <div class="good_">G</div>
-                                                    <div class="faulty_">F</div>
-                                                    <div class="bad_">B</div>
-                                                    <p>Hood</p>
-                                                </div>
-                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
-                                            </div>
+
                                             <router-link to="General"><div class="general-observe">
                                                 <p>General Observation (optional)</p>
                                                 <font-awesome-icon icon="pen" class=""/>
@@ -685,7 +509,7 @@
                                                     <div class="good_">G</div>
                                                     <div class="faulty_">F</div>
                                                     <div class="bad_">B</div>
-                                                    <p>Hood</p>
+                                                    <p>Power Locks</p>
                                                 </div>
                                                 <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
@@ -694,7 +518,7 @@
                                                     <div class="good_">G</div>
                                                     <div class="faulty_">F</div>
                                                     <div class="bad_">B</div>
-                                                    <p>Hood</p>
+                                                    <p>Power Seats</p>
                                                 </div>
                                                 <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
@@ -703,7 +527,7 @@
                                                     <div class="good_">G</div>
                                                     <div class="faulty_">F</div>
                                                     <div class="bad_">B</div>
-                                                    <p>Hood</p>
+                                                    <p>Power Steering</p>
                                                 </div>
                                                 <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
@@ -712,7 +536,7 @@
                                                     <div class="good_">G</div>
                                                     <div class="faulty_">F</div>
                                                     <div class="bad_">B</div>
-                                                    <p>Hood</p>
+                                                    <p>Power Windows</p>
                                                 </div>
                                                 <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
@@ -721,7 +545,7 @@
                                                     <div class="good_">G</div>
                                                     <div class="faulty_">F</div>
                                                     <div class="bad_">B</div>
-                                                    <p>Hood</p>
+                                                    <p>Power Mirrors</p>
                                                 </div>
                                                 <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
@@ -730,7 +554,7 @@
                                                     <div class="good_">G</div>
                                                     <div class="faulty_">F</div>
                                                     <div class="bad_">B</div>
-                                                    <p>Hood</p>
+                                                    <p>Audio System</p>
                                                 </div>
                                                 <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
@@ -739,7 +563,7 @@
                                                     <div class="good_">G</div>
                                                     <div class="faulty_">F</div>
                                                     <div class="bad_">B</div>
-                                                    <p>Hood</p>
+                                                    <p>Onboard Computer</p>
                                                 </div>
                                                 <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
@@ -748,7 +572,7 @@
                                                     <div class="good_">G</div>
                                                     <div class="faulty_">F</div>
                                                     <div class="bad_">B</div>
-                                                    <p>Hood</p>
+                                                    <p>Headlights</p>
                                                 </div>
                                                 <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
@@ -757,7 +581,34 @@
                                                     <div class="good_">G</div>
                                                     <div class="faulty_">F</div>
                                                     <div class="bad_">B</div>
-                                                    <p>Hood</p>
+                                                    <p>Tail Light</p>
+                                                </div>
+                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
+                                            </div>
+                                            <div class="car_conditions">
+                                                <div class="car_condition">
+                                                    <div class="good_">G</div>
+                                                    <div class="faulty_">F</div>
+                                                    <div class="bad_">B</div>
+                                                    <p>Signal Lights</p>
+                                                </div>
+                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
+                                            </div>
+                                            <div class="car_conditions">
+                                                <div class="car_condition">
+                                                    <div class="good_">G</div>
+                                                    <div class="faulty_">F</div>
+                                                    <div class="bad_">B</div>
+                                                    <p>Brake Lights</p>
+                                                </div>
+                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
+                                            </div>
+                                            <div class="car_conditions">
+                                                <div class="car_condition">
+                                                    <div class="good_">G</div>
+                                                    <div class="faulty_">F</div>
+                                                    <div class="bad_">B</div>
+                                                    <p>Parking Lights</p>
                                                 </div>
                                                 <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
@@ -775,7 +626,7 @@
                                                     <div class="good_">G</div>
                                                     <div class="faulty_">F</div>
                                                     <div class="bad_">B</div>
-                                                    <p>Hood</p>
+                                                    <p>Starting</p>
                                                 </div>
                                                 <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
@@ -784,7 +635,7 @@
                                                     <div class="good_">G</div>
                                                     <div class="faulty_">F</div>
                                                     <div class="bad_">B</div>
-                                                    <p>Hood</p>
+                                                    <p>Idling</p>
                                                 </div>
                                                 <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
@@ -793,7 +644,7 @@
                                                     <div class="good_">G</div>
                                                     <div class="faulty_">F</div>
                                                     <div class="bad_">B</div>
-                                                    <p>Hood</p>
+                                                    <p>Engine Performance</p>
                                                 </div>
                                                 <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
@@ -802,7 +653,7 @@
                                                     <div class="good_">G</div>
                                                     <div class="faulty_">F</div>
                                                     <div class="bad_">B</div>
-                                                    <p>Hood</p>
+                                                    <p>Acceleration</p>
                                                 </div>
                                                 <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
@@ -811,7 +662,7 @@
                                                     <div class="good_">G</div>
                                                     <div class="faulty_">F</div>
                                                     <div class="bad_">B</div>
-                                                    <p>Hood</p>
+                                                    <p>Transmission Shift</p>
                                                 </div>
                                                 <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
@@ -820,7 +671,7 @@
                                                     <div class="good_">G</div>
                                                     <div class="faulty_">F</div>
                                                     <div class="bad_">B</div>
-                                                    <p>Hood</p>
+                                                    <p>Steering</p>
                                                 </div>
                                                 <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
@@ -829,7 +680,7 @@
                                                     <div class="good_">G</div>
                                                     <div class="faulty_">F</div>
                                                     <div class="bad_">B</div>
-                                                    <p>Hood</p>
+                                                    <p>Braking</p>
                                                 </div>
                                                 <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
@@ -838,16 +689,7 @@
                                                     <div class="good_">G</div>
                                                     <div class="faulty_">F</div>
                                                     <div class="bad_">B</div>
-                                                    <p>Hood</p>
-                                                </div>
-                                                <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
-                                            </div>
-                                            <div class="car_conditions">
-                                                <div class="car_condition">
-                                                    <div class="good_">G</div>
-                                                    <div class="faulty_">F</div>
-                                                    <div class="bad_">B</div>
-                                                    <p>Hood</p>
+                                                    <p>Suspension Performance</p>
                                                 </div>
                                                 <router-link to="Notes"><div class="edit_"><font-awesome-icon icon="pen" class=""/></div></router-link>
                                             </div>
