@@ -96,7 +96,7 @@ body{
     padding: 0;
     font-family: 'Avenir LT Std 55 Roman';
 }
-.input-atm-card,.input-manufacturer,.input-email,.card-pin-input,.expiry-input,.addcard-input,.input-location,.verify-input-location,.verify-input,.verify-input2,.form-input,select,textarea,button,.form-control,.input-field:focus,.input-field:active {
+.checked,.input-atm-card,.input-manufacturer,.input-email,.card-pin-input,.expiry-input,.addcard-input,.input-location,.verify-input-location,.verify-input,.verify-input2,.form-input,select,textarea,button,.form-control,.input-field:focus,.input-field:active {
     outline:0px !important;
     -webkit-appearance:none!important;
     border-color: transparent;
@@ -521,48 +521,106 @@ a:hover, a:focus, a:active{
     display: flex;
 }
 .good_{
-    opacity: 0.4;
-    background: #198E77;
+    /*opacity: 0.4;*/
+    /*background: #198E77;*/
     border-radius: 10px;
     color: #ffffff;
     width: 45px;
     height: 45px;
     font-weight: 900;
     text-align: center;
-    padding: 10px;
+    /*padding: 10px;*/
     margin: 5px;
+    -webkit-transition: 0.3s background;
+    -moz-transition: 0.3s background;
+    transition: 0.3s background;
+    cursor: pointer;
 }
-.good_:hover, .good_:active, .good_:focus{
+.good_:hover{
     opacity: 1;
 }
+.good_:active{
+    opacity: 1;
+    transform: translateY(1px);
+    filter: saturate(150%);
+}
+.good_:focus{
+    opacity: 1;
+}
+.good_:link{
+    opacity: 1;
+}
+.good_:visited{
+    opacity: 1;
+}
+.good_:target{
+    opacity: 1;
+}
+/*.good_:selected{}*/
 .faulty_{
-    opacity: 0.4;
-    background: #E67E22;
+    /*opacity: 0.4;*/
+    /*background: #E67E22;*/
     border-radius: 10px;
     color: #ffffff;
     width: 45px;
     height: 45px;
     font-weight: 900;
     text-align: center;
-    padding: 10px;
+    /*padding: 10px;*/
     margin: 5px;
+    -webkit-transition: 0.3s background;
+    -moz-transition: 0.3s background;
+    transition: 0.3s background;
+    cursor: pointer;
 }
-.faulty_:hover, .faulty_:active, .faulty_:focus{
+.faulty_:hover{
+    opacity: 1;
+}
+.faulty_:active{
+    opacity: 1;
+    transform: translateY(1px);
+    filter: saturate(150%);
+}
+.faulty_:focus{
+    opacity: 1;
+}
+.faulty_:visited{
+    opacity: 1;
+}
+.faulty_:link{
     opacity: 1;
 }
 .bad_{
-    opacity: 0.4;
-    background: #FF1744;
+    /*opacity: 0.4;*/
+    /*background: #FF1744;*/
     border-radius: 10px;
     color: #ffffff;
     width: 45px;
     height: 45px;
     font-weight: 900;
     text-align: center;
-    padding: 10px;
+    /*padding: 10px;*/
     margin: 5px;
+    -webkit-transition: 0.3s background;
+    -moz-transition: 0.3s background;
+    transition: 0.3s background;
+    cursor: pointer;
 }
-.bad_:hover, .bad_:active, .bad_:focus{
+.bad_:hover{
+    opacity: 1;
+}
+.bad_:active{
+    opacity: 1;
+    transform: translateY(1px);
+    filter: saturate(150%);
+}
+.bad_:focus{
+    opacity: 1;
+}
+.bad_:visited{
+    opacity: 1;
+}
+.bad_:link{
     opacity: 1;
 }
 .car_condition p{
@@ -610,30 +668,30 @@ a:hover, a:focus, a:active{
     font-weight: 900;
  }
 .dot1{
-    width: 9px;
-    height: 5px;
+    width: 15px;
+    height: 15px;
     padding: 5px;
-    margin: 7px 5px 0;
+    margin: 4px 5px 0;
     border-radius: 50%;
     background: #198E77;
     color: #198E77;
     /*font-size: 20px;*/
 }
 .dot2{
-    width: 9px;
-    height: 5px;
+    width: 15px;
+    height: 15px;
     padding: 5px;
-    margin: 7px 5px 0;
+    margin: 4px 5px 0;
     border-radius: 50%;
     background: #E67E22;
     color: #E67E22;
     font-size: 20px;
 }
 .dot3{
-    width: 9px;
-    height: 5px;
+    width: 15px;
+    height: 15px;
     padding: 5px;
-    margin: 7px 5px 0;
+    margin: 4px 5px 0;
     border-radius: 50%;
     background: #FF1744;
     color: #FF1744;
@@ -648,6 +706,7 @@ a:hover, a:focus, a:active{
     font-size: 15px;
     font-weight: 900;
 }
+
 .edit-pen{
     background: #0091EA;
     border-radius: 10px;

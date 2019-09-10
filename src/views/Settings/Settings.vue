@@ -87,6 +87,12 @@
 
 </style>
 <style scoped>
+    a{
+        text-decoration: none;
+    }
+    a:hover, a:focus, a:active{
+        text-decoration: none;
+    }
     .vue-switcher{
         padding-top: 10px;
     }

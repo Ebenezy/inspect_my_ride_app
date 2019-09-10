@@ -7,6 +7,8 @@ Vue.use(BootstrapVue)
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 
+import 'vue-search-select/dist/VueSearchSelect.css'
+
 Vue.config.productionTip = false
 
 import Datetime from 'vue-datetime'
@@ -37,6 +39,8 @@ library.add(faUserSecret, faAngleDown, faCaretDown, faPen, faCamera, faPhotoVide
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 
+import {TheMask} from 'vue-the-mask'
+
 new Vue({
   router,
 
@@ -49,6 +53,7 @@ new Vue({
         Switches,
         BadgerAccordion,
         BadgerAccordionItem,
+        TheMask
         // pollyfill
     },
 

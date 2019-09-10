@@ -24,6 +24,8 @@ import Subscription from './views/Settings/Subscription.vue'
 import SelectPlan from './views/Settings/SelectPlan.vue'
 import Premium from './views/Settings/Premium.vue'
 import AddCard from './views/Settings/AddCard.vue'
+import AddCardBasic from './views/Settings/AddCardBasic.vue'
+import AddCardPro from './views/Settings/AddCardPro.vue'
 import RestorePlan from './views/Settings/RestorePlan.vue'
 // import Home from './views/Home.vue'
 
@@ -150,6 +152,16 @@ export default new Router({
           path: '/AddCard',
           name: 'AddCard',
           component: AddCard
+      },
+      {
+          path: '/AddCardBasic',
+          name: 'AddCardBasic',
+          component: AddCardBasic
+      },
+      {
+          path: '/AddCardPro',
+          name: 'AddCardPro',
+          component: AddCardPro
       },
       {
           path: '/RestorePlan',

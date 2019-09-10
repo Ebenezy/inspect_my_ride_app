@@ -13,6 +13,7 @@
     @import "assets/css/bootstrap.css";
     @import "assets/css/animate.css";
 
+
     #app{
         font-family: 'Avenir', Helvetica, Arial, sans-serif;
         -webkit-font-smoothing: antialiased;

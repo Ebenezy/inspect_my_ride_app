@@ -57,7 +57,7 @@
                 </div>
 
                 <div class="login">
-                    <router-link to="">
+                    <router-link to="SelectPlan">
                         <div class="start-inspection3">
                             <div></div>
                             <button class="inspect-btn2">Submit Inspection</button>
@@ -83,6 +83,12 @@
 </script>
 
 <style scoped>
+    a{
+        text-decoration: none;
+    }
+    a:hover, a:focus, a:active{
+        text-decoration: none;
+    }
     .chart-box{
         background: #E5E5E5;
         border: 1px solid #D8D8D8;

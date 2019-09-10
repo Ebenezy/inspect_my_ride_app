@@ -26,16 +26,19 @@
                     </div>
 
                     <div class="select_plan_box">
+                        <router-link to="AddCardBasic">
                         <div class="select_plan_box1">
                             <h5>$28</h5>
                             <h4>Basic</h4>
                             <p>10 Cars<br>Inspection a Month</p>
-                        </div>
+                        </div></router-link>
+                        <router-link to="AddCardPro">
                         <div class="select_plan_box2">
                             <h5>$55</h5>
                             <h4><img src="../../assets/images/pro-img.svg"></h4>
                             <p>50 Cars<br>Inspection a Month</p>
-                        </div>
+                        </div></router-link>
+                        <router-link to="AddCard">
                         <div class="select_premium">
                             <!--<div class="select_premium_badge">-->
                                 <!--<div></div>-->
@@ -53,7 +56,7 @@
                                 <h4><img src="../../assets/images/premium-img.svg"></h4>
                                 <p>Unlimited Cars<br>Inspection a Month</p>
                             </div>
-                        </div>
+                        </div></router-link>
 
                     </div>
 
@@ -85,5 +88,11 @@
 </script>
 
 <style scoped>
+    a{
+        text-decoration: none;
+    }
+    a:hover, a:focus, a:active{
+        text-decoration: none;
+    }
 
 </style>

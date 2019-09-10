@@ -32,7 +32,17 @@
                                     <div class="manufacturer-model">
                                         <div class="manufacturer">
                                             <p class="">Manufacturer</p>
-                                            <input class="input-manufacturer" type="text" name="Manufacturer" placeholder="Hyundai">
+                                            <!--<multi-select :options="options"-->
+                                                          <!--:selected-options="items"-->
+                                                          <!--placeholder="select item"-->
+                                                          <!--@select="onSelect">-->
+                                            <!--</multi-select>-->
+                                            <model-select :options="options"
+                                                          v-model="item"
+                                                          class="input-manufacturer"
+                                                          placeholder="Hyundai">
+                                            </model-select>
+                                            <!--<input class="input-manufacturer" type="text" name="Manufacturer" placeholder="Hyundai">-->
                                         </div>
                                         <div class="manufacturer">
                                             <p class="">Model</p>
@@ -109,20 +119,41 @@
 
 <script>
     import { Datetime } from 'vue-datetime';
-
+    import { ModelSelect } from 'vue-search-select'
 
     export default {
         name: "StartInspection.vue",
         components: {
             datetime: Datetime,
+            ModelSelect
         },
         data() {
             return {
                 date: null,
                 country: null,
-                region: null
+                region: null,
+                options: [
+                    { value: '1', text: 'Hyundai' },
+                    { value: '2', text: 'Toyota' },
+                    { value: '3', text: 'Mercedes' },
+                    { value: '4', text: 'Honda' },
+                    { value: '5', text: 'Range' }
+                ],
+                item: {
+                    value: '',
+                    text: ''
+                },
             }
-        }
+        },
+        methods: {
+            reset () {
+                this.item = {}
+            },
+            selectFromParentComponent1 () {
+                // select option from parent component
+                this.item = this.options[0]
+            }
+        },
     }
 </script>
 

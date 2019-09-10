@@ -29,7 +29,8 @@
                     <div class="card-entry">
                         <div class="card_number">
                             <label >Card Number</label><br>
-                            <input type="text" name="card-number" class="input-atm-card" placeholder="5126  7619  8372  3221">
+                            <the-mask :mask="['####', '#### #### ', '#### #### ####', '#### #### #### ####']" type="tel" name="card-number" class="input-atm-card" placeholder="5126  7619  8372  3221" >
+                            </the-mask>
                         </div>
                         <div><img src="../../assets/images/mastercard.svg" ></div>
                     </div>
@@ -43,14 +44,16 @@
                         <div class="card-entry mr-1">
                             <div class="card_number">
                                 <label >Expiry Date</label><br>
-                                <input type="text" name="card-number" class="input-atm-card" placeholder="04 / 21">
+                                <the-mask :mask="['##', '##/#', '##/##']" type="tel" name="card-number" class="input-atm-card" placeholder="04 / 21" >
+                                </the-mask>
                             </div>
                         </div>
 
                         <div class="card-entry ml-1">
                             <div class="card_number">
                                 <label >Card Number</label><br>
-                                <input type="text" name="card-number" class="input-atm-card" placeholder="251">
+                                <the-mask :mask="['###', '###', '###']" type="tel" name="card-number" class="input-atm-card" placeholder="251" >
+                                </the-mask>
                             </div>
                         </div>
                     </div>
@@ -71,7 +74,9 @@
 </template>
 
 <script>
+    import {TheMask} from 'vue-the-mask'
     export default {
+        components: {TheMask},
         name: "RestorePlan.vue"
     }
 </script>
