@@ -32,17 +32,12 @@
                                     <div class="manufacturer-model">
                                         <div class="manufacturer">
                                             <p class="">Manufacturer</p>
-                                            <!--<multi-select :options="options"-->
-                                                          <!--:selected-options="items"-->
-                                                          <!--placeholder="select item"-->
-                                                          <!--@select="onSelect">-->
-                                            <!--</multi-select>-->
-                                            <model-select :options="options"
-                                                          v-model="item"
-                                                          class="input-manufacturer"
-                                                          placeholder="Hyundai">
-                                            </model-select>
-                                            <!--<input class="input-manufacturer" type="text" name="Manufacturer" placeholder="Hyundai">-->
+                                            <!--<model-select :options="options"-->
+                                                          <!--v-model="item"-->
+                                                          <!--class="input-manufacturer"-->
+                                                          <!--placeholder="Hyundai">-->
+                                            <!--</model-select>-->
+                                            <input class="input-manufacturer" type="text" name="Manufacturer" placeholder="Hyundai">
                                         </div>
                                         <div class="manufacturer">
                                             <p class="">Model</p>
@@ -58,7 +53,7 @@
                                         <input class="input-manufacturer" type="text" name="Manufacturer" placeholder="JUY342174826193613">
                                     </div>
                                     <div class="manufacturer-model2">
-                                        <img src="../../assets/images/barcode.jpg">
+                                        <img src="../../assets/images/barcode.jpg" style="width: 65%;">
                                         <div class="or">OR</div>
                                         <img src="../../assets/images/qrcode.jpg">
                                     </div>
@@ -119,13 +114,13 @@
 
 <script>
     import { Datetime } from 'vue-datetime';
-    import { ModelSelect } from 'vue-search-select'
+    // import { ModelSelect } from 'vue-search-select'
 
     export default {
         name: "StartInspection.vue",
         components: {
             datetime: Datetime,
-            ModelSelect
+            // ModelSelect
         },
         data() {
             return {
